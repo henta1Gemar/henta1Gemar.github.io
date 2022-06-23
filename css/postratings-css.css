@@ -1,0 +1,109 @@
+/*
++----------------------------------------------------------------+
+|                                                                |
+|   WordPress Plugin: WP-PostRatings                             |
+|   Copyright (c) 2012 Lester "GaMerZ" Chan                      |
+|                                                                |
+|   File Written By:                                             |
+|   - Lester "GaMerZ" Chan                                       |
+|   - http://lesterchan.net                                      |
+|                                                                |
+|   File Information:                                            |
+|   - Post Ratings CSS File                                      |
+|   - wp-content/plugins/wp-postratings/postratings-css.css      |
+|                                                                |
++----------------------------------------------------------------+
+*/
+
+#circle{
+	 width:36px;
+    height:36px;
+}
+
+
+.select-vote-hr img{
+	margin-right: 0;
+}
+
+.post-ratings-loading{
+	display: none;
+}
+
+
+.rating-post-info div,
+.rating-post-info .progress{
+	display: inline-block;
+}
+
+
+.rating-post-info .pie{
+    background-color:#DFE8ED;
+    width:36px;
+    height:36px;
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    position:relative;
+    margin-bottom: 10px;
+}
+.rating-post-info .clip1 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:36px;
+    height:50px;
+    clip:rect(0px, 100px, 100px, 50px);
+}
+.rating-post-info .slice1 {
+    position:absolute;
+    width:36px;
+    height:36px;
+    clip:rect(0px, 50px, 100px, 0px);
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    background-color:#30BAE7;
+    border-color:#30BAE7;
+    -moz-transform:rotate(0);
+    -webkit-transform:rotate(0);
+    -o-transform:rotate(0);
+    transform:rotate(0);
+}
+.rating-post-info .clip2 {
+    position:absolute;
+    top:0;
+    left:0;
+    width:36px;
+    height:36px;
+    clip:rect(0, 50px, 100px, 0px);
+}
+.rating-post-info .slice2 {
+    position:absolute;
+    width:36px;
+    height:36px;                               
+    clip:rect(0px, 100px, 100px, 50px);
+    -moz-border-radius:100%;
+    -webkit-border-radius:100%;
+    border-radius:100%;
+    background-color:#30BAE7;
+    border-color:#30BAE7;
+    -moz-transform:rotate(0);
+    -webkit-transform:rotate(0);
+    -o-transform:rotate(0);
+    transform:rotate(0);
+}
+.rating-post-info .status {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 74px;
+    height: 64px;
+    padding-top: 10px;
+    border-radius: 100%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #3C4761;
+    line-height: 20px;
+    background: #fff;
+}
